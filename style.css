@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Iceland&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Iceland&family=Krona+One&display=swap');
+
+*{
+    user-select: none;
+    margin: none;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Krona One", sans-serif;
+}
+body{
+    background-color: #121212;
+}
+body header{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    background-color: #121212;
+}
+body header .logo img{
+    width: 20%;
+}
+body header .login{
+    margin-right: 3vw;
+}
+body header .login button{
+    width: 100px;
+    height: 40px;
+    padding: 10px;
+    font-family: "Krona One", sans-serif;
+    background-color: #9EFF00;
+    border: none;
+    border-radius: 20px;
+}
+main #main{
+    margin-top: 10vh;
+    width: 100%;
+    height: 60vh;
+    background-image: url(images/main-image/mj.webp);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main #main h1{
+    font-size: 3rem;
+    font-family: "Krona One", sans-serif;
+    color: rgb(20, 20, 20);
+    background-color: #9EFF00;
+    padding: 20px;
+}
+main #first{
+    margin-top: 10vh;
+    margin-left: 2vw;
+}
+main #first .title h1{
+    font-size: 2rem;
+    color: rgb(247, 247, 247);
+    margin-bottom: 7vh;
+}
+main .gallery{
+    width: 100%;
+    display: flex;
+    gap: 40px;
+}
+main .gallery .photo{
+    width: 15%;
+}
+main .gallery .photo img{
+    width: 100%;
+}
+main .gallery .photo h1{
+    font-size: .9rem;
+    color: rgb(245, 245, 245);
+}
