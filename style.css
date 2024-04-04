@@ -3,7 +3,7 @@
 
 *{
     user-select: none;
-    margin: none;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Krona One", sans-serif;
@@ -17,35 +17,40 @@ body header{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 3%;
     position: fixed;
     top: 0;
     background-color: #121212;
     z-index: 10;
 }
 body header .logo img{
-    width: 20%;
+    width: 15%;
 }
 body header .login{
     margin-right: 3vw;
 }
-body header .login button{
+body header .login a{
     width: 100px;
     height: 40px;
     padding: 10px;
+    color: #121212;
     font-family: "Krona One", sans-serif;
+    font-size: 70%;
+    text-decoration: none;
     background-color: #9EFF00;
     border: none;
     border-radius: 20px;
     transition: .8s;
 }
-body header .login button:hover{
+body header .login a:hover{
     cursor: pointer;
     opacity: .7;
 }
+
 main #main{
     margin-top: 10vh;
     width: 100%;
-    height: 60vh;
+    height: 70vh;
     background-image: url(images/main-image/mj.webp);
     background-position: center;
     background-size: cover;
@@ -96,6 +101,17 @@ main .gallery .photo h2{
     font-size: .6rem;
     color: rgba(245, 245, 245, 0.473);
 }
+main .gallery .image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main .gallery .image img{
+    width: 40px;
+    position: relative;
+    opacity: .1;
+    cursor: pointer;
+}
 main #second{
     margin-top: 10vh;
     margin-left: 2vw;
@@ -115,4 +131,13 @@ main #third{
 }
 main #third img{
     width: 80%;
+}
+
+@keyframes seta {
+    0%, 100% {
+        left: 0;
+    }
+    50% {
+        left: 5px;
+    }
 }
