@@ -141,3 +141,65 @@ main #third img{
         left: 5px;
     }
 }
+
+@media (max-width: 714px) {
+    body header .logo img{
+        width: 19%;
+    }
+    main #main h1{
+        font-size: 2rem;
+    }
+    main .gallery .image{
+        display: none;
+    }
+    main #first .title h1{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    main #second .title h1{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    main #second{
+        margin-top: 10vh;
+        margin-left: 0vw;
+    }
+    main #first{
+        margin-top: 10vh;
+        margin-left: 0vw;
+    }
+    main .gallery{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    main .gallery .photo{
+        width: 60%;
+    }
+    main #third{
+        height: 20vh;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-end;
+    }
+    main #third img{
+        width: 100%;
+        bottom: 0;
+    }
+}
+@media (max-width: 510px) {
+    main #main h1{
+        font-size: 1.5rem;
+    }
+    body header .logo img{
+        width: 28%;
+    }
+}
+@media (max-width: 390px) {
+    main #main h1{
+        font-size: 1rem;
+    }
+    body header .logo img{
+        width: 28%;
+    }
+}
