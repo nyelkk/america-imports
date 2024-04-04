@@ -144,7 +144,7 @@ main #third img{
 
 @media (max-width: 714px) {
     main #main{
-        background-position: -400px;
+        background-position: 70%;
     }
     body header .logo img{
         width: 19%;
