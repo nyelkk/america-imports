@@ -28,6 +28,8 @@ body header .logo img{
 }
 body header .login{
     margin-right: 3vw;
+    display: flex;
+    gap: 10px;
 }
 body header .login a{
     width: 100px;
@@ -41,6 +43,7 @@ body header .login a{
     border: none;
     border-radius: 20px;
     transition: .8s;
+    text-align: center; 
 }
 body header .login a:hover{
     cursor: pointer;
