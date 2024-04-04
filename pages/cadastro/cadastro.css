@@ -11,12 +11,13 @@
 
 main{
     display: flex;
+    flex-direction: row-reverse;
     width: 100%;
     height: 100vh;
 }
 main .aside{
     width: 50vw;
-    background-image: url(../../images/assets/Messi.png);
+    background-image: url(../../images/assets/Melo.png);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -27,6 +28,11 @@ main .aside .logo{
 main .aside .logo img{
     width: 30%;
 }
+main .aside .logo a{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
 main .aside .title{
     height: 70%;
     display: flex;
@@ -34,6 +40,8 @@ main .aside .title{
 }
 main .aside .title h1{
     margin-left: 5%;
+    text-align: right;
+    width: 50%;
     font-size: 4rem;
     max-width: 10%;
     line-height: 90%;
