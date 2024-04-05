@@ -44,6 +44,9 @@ body header .login a{
     border-radius: 20px;
     transition: .8s;
     text-align: center; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 body header .login a:hover{
     cursor: pointer;
@@ -135,6 +138,42 @@ main #third{
 main #third img{
     width: 80%;
 }
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    overflow: hidden;
+}
+
+#slider {
+    white-space: nowrap;
+    overflow: hidden;
+    animation: slide 6s infinite;
+}
+
+#slider p {
+    display: inline-block;
+    width: 100%;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(0);
+    }
+    33.33% {
+        transform: translateX(-100%);
+    }
+    66.66% {
+        transform: translateX(-200%);
+    }
+    100% {
+        transform: translateX(-200%);
+    }
+}
+
 
 @keyframes seta {
     0%, 100% {
