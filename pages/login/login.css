@@ -114,8 +114,7 @@ main .other-side .main-container input[type=submit]:hover{
     }
     main .aside{
         width: 100%;
-        height: 20vh;
-        background-position: center center;
+        height: 10vh;
         display: flex;
         flex-direction: column;
         align-items: center;
