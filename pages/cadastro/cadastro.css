@@ -16,7 +16,7 @@ main{
     height: 100vh;
 }
 main .aside{
-    width: 50vw;
+    width: 10vw;
     background-image: url(../../images/assets/Melo.jpg);
     background-position: center center;
     background-size: cover;
