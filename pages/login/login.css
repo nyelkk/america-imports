@@ -16,7 +16,7 @@ main{
 }
 main .aside{
     width: 50vw;
-    background-image: url(../../images/assets/Messi.png);
+    background-image: url(../../images/assets/Messi.jpg);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
