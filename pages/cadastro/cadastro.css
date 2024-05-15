@@ -16,22 +16,18 @@ main{
     height: 100vh;
 }
 main .aside{
-    width: 10vw;
+    width: 50vw;
     background-image: url(../../images/assets/Melo.jpg);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 main .aside .logo{
-    margin: 2% 0 0 2%;
+
+    margin: 2% 0 0 60%;
 }
 main .aside .logo img{
-    width: 30%;
-}
-main .aside .logo a{
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
+    width: 80%;
 }
 main .aside .title{
     height: 70%;
@@ -40,8 +36,6 @@ main .aside .title{
 }
 main .aside .title h1{
     margin-left: 5%;
-    text-align: right;
-    width: 50%;
     font-size: 4rem;
     max-width: 10%;
     line-height: 90%;

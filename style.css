@@ -213,12 +213,14 @@ footer {
         margin-left: 0vw;
     }
     main .gallery{
-        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
         align-items: center;
         gap: 20px;
     }
     main .gallery .photo{
-        width: 60%;
+        width: 40%;
     }
     main #third{
         height: 20vh;
