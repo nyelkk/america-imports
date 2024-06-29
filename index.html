@@ -49,8 +49,8 @@
                     <h1>Regata NBA <br> Spurs</h1>
                     <h2>R$ 617,49 no Pix <br> ou 9x de R$ 72,22</h2>
                 </div>
-                <div class="image">
-                    <img src="images/assets/seta-direita.png" alt="">
+                <div class="image" onclick="exibirAlerta()">
+                    <img src="images/assets/seta-direita.png" alt="" >
                 </div>
             </div>
         </section>
@@ -80,7 +80,7 @@
                     <h1>Camisa Red Bull Bragantino 21/22</h1>
                     <h2>R$ 149,90 no Pix <br> ou 3x de R$ 49,90</h2>
                 </div>
-                <div class="image">
+                <div class="image" onclick="exibirAlerta()">
                     <img class="arrow" src="images/assets/seta-direita.png" alt="">
                 </div>
             </div>
@@ -90,5 +90,10 @@
             <img src="images/assets/AD.png" alt="">
         </section>
     </main> 
+    <script>
+        function exibirAlerta() {
+            alert('Não há mais Produtos.');
+            }
+    </script>
 </body>
 </html>
